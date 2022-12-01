@@ -1,0 +1,154 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.global-msg {
+  background-color: blue;
+  line-height: 32px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.global-content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials a {
+  color: white;
+}
+
+/* Navbar section */
+.nav-bar {
+  background-color: rgb(106, 173, 153);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu ul li {
+  margin-left: 16px;
+}
+
+.menu ul li:hover {
+  cursor: pointer;
+}
+/* hero section  */
+.hero {
+  min-height: 80vh;
+  background: url(image/img1.jpg) no-repeat center;
+
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  color: white;
+  width: 450px;
+  background: rgba(112, 61, 61, 0.7);
+  padding: 30px 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+/* posts section */
+.posts {
+  display: flex;
+  padding-top: 30px;
+}
+.posts-content {
+  margin-top: 30px;
+  width: 60%;
+}
+.side-links {
+  width: 40%;
+}
+.country {
+  background: rgb(171, 194, 119);
+  padding: 40px;
+  border-radius: 5px;
+}
+.date {
+  margin-top: 30px;
+  background: rgb(223, 193, 193);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+article {
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.art-img {
+  width: 400px;
+  height: 400px;
+  margin-right: 20px;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* card selection */
+.card-section {
+  margin-top: 40px;
+  background: rgb(224, 212, 212);
+  padding: 20px;
+}
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.card {
+  width: 300px;
+  /* height: 300px; */
+  background: white;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  box-shadow: -5px 5px 10px 5px rgba(174, 174, 211, 0.3);
+}
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+.btn-card {
+  background: orangered;
+  font-size: 18px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+/* subscription section */
+.subscription {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  background: rgb(209, 193, 193);
+  color-scheme: white;
+  padding: 10px;
+  text-align: center;
+  min-height: 30px;
+  margin-top: 32px;
+}
